@@ -1,7 +1,7 @@
 Copyright (c) 2013 Moisés Guimarães
 
 Implementation of AVL trees (http://en.wikipedia.org/wiki/AVL_tree) in Python.
-Class AvlTree supports the following functionality:
+Class AvlTree supports the following functionalities:
  - insertion of a new entry in the tree
  - removal of any entry in the tree
  - tree traversals:
