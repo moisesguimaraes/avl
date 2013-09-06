@@ -8,8 +8,16 @@ Class AvlTree supports the following functionalities:
     - preorder
     - inorder
     - postorder
+    
+To use run.sh type:
+  ./run.sh python tree.py
+  
+You can use the output to compare to another binary tree implementation like:
+  ./run.sh python tree.py    > py.log
+  ./run.sh java   Tree.class > java.log
+  diff py.log java.log
 
-!!! Right now, this code is used only for educational purpose. !!!
+!!! This code is used only for educational purpose. !!!
 
 This code is available under MIT License.
 
