@@ -65,13 +65,9 @@ class AvlTree:
         if not root:
             return AvlNode(data)
         
-        if root.data == data:
-            return root
-            
         if data < root.data:
             root.left = self._insert(root.left, data)
-            
-        elif data > root.data:
+        else:
             root.right = self._insert(root.right, data)
             
         return self._balance(root)
@@ -103,8 +99,7 @@ class AvlTree:
                     
             elif data < root.data:
                 root.left = self._remove(root.left, data)
-            
-            elif data > root.data:
+            else:
                 root.right = self._remove(root.right, data)
             
         return self._balance(root)
